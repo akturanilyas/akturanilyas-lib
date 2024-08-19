@@ -1,15 +1,17 @@
 import { DivProps } from './Div.type';
-import { FC } from 'react';
+import { forwardRef } from 'react';
 import { cn } from '../../utils';
 
-export const Div: FC<DivProps> = (props) => {
+const Div = forwardRef<HTMLDivElement, DivProps>((props, ref) => {
   const { className, children, ...rest } = props;
 
-  const classes = cn('flex flex-row', className);
+  const classes = cn('flex flex-col', className);
 
   return (
-    <div className={classes} {...rest}>
+    <div ref={ref} className={classes} {...rest}>
       {children}
     </div>
   );
-};
+});
+
+export default Div;

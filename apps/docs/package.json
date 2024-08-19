@@ -24,7 +24,6 @@
     "@storybook/react": "^8.2.5",
     "@storybook/react-vite": "^8.2.5",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
     "serve": "^14.2.1",
     "storybook": "^8.2.5",
     "@repo/typescript-config": "*",

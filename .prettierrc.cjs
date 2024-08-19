@@ -8,6 +8,7 @@ module.exports = {
   semi: true,
   useTabs: false,
   singleQuote: true,
+  doubleQuote: false,
   bracketSpacing: true,
   jsxSingleQuote: false,
   jsxBracketSameLine: false,
