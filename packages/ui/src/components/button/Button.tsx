@@ -6,7 +6,7 @@ import { cn } from '../../utils';
 const Button: FC<ButtonProps> = (props) => {
   const { className, size, variant: _variant, ...rest } = props;
 
-  const variant = _variant || props.icon ? 'icon' : undefined;
+  const variant = _variant || (props.icon ? 'icon' : undefined);
 
   return (
     <button className={cn(button({ size, variant, className }))} {...rest}>

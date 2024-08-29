@@ -1,6 +1,6 @@
 import { cva } from 'class-variance-authority';
 
-export const button = cva('flex text-center items-center justify-center', {
+export const button = cva('flex text-center items-center justify-center backdrop-blur-md shadow-lg', {
   variants: {
     rounded: {
       sm: 'rounded',
@@ -17,6 +17,7 @@ export const button = cva('flex text-center items-center justify-center', {
       outlined: ['bg-transparent', 'text-primary', 'border-2 border-primary', 'hover:bg-slate-200'],
       text: ['bg-transparent', 'text-primary', 'border-transparent'],
       icon: ['gap-2'],
+      glass: ['bg-white/30', 'hover:bg-white/40 text-white'],
     },
   },
   compoundVariants: [

@@ -21,3 +21,20 @@ export const Default: Story = {
     children: 'Content',
   },
 };
+
+export const Glass: Story = {
+  render: ({ title, children }) => (
+    <div className='rounded-md bg-red-800 p-4 shadow-md'>
+      <Accordion variant={'glass'} title={title} defaultValue={true}>
+        {children}
+      </Accordion>
+    </div>
+  ),
+  name: 'Glass',
+  args: {
+    title: {
+      text: 'Title',
+    },
+    children: 'Content',
+  },
+};

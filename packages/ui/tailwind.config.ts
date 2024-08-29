@@ -13,6 +13,12 @@ const config: Pick<Config, 'prefix' | 'presets' | 'content' | 'theme'> = {
           DEFAULT: '#911478',
         },
       },
+      transitionProperty: {
+        transform: 'transform',
+      },
+      transform: {
+        'rotate-180': 'rotate(180deg)',
+      },
     },
   },
   presets: [sharedConfig],
