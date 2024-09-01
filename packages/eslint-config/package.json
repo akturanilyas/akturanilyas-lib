@@ -1,7 +1,7 @@
 {
   "name": "@akturanilyas/eslint-config",
   "version": "0.0.6",
-  "private": true,
+  "private": false,
   "files": [
     "library.js",
     "react.js",

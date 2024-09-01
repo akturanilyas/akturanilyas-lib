@@ -1,7 +1,7 @@
 {
   "name": "@akturanilyas/typescript-config",
   "version": "0.0.6",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "publishConfig": {
     "access": "public"

@@ -1,7 +1,7 @@
 {
   "name": "@akturanilyas/tailwind-config",
   "version": "0.0.6",
-  "private": true,
+  "private": false,
   "exports": {
     ".": "./tailwind.config.ts"
   },
