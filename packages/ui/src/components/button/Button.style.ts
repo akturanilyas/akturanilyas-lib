@@ -1,6 +1,6 @@
 import { cva } from 'class-variance-authority';
 
-export const button = cva('flex text-center items-center justify-center backdrop-blur-md shadow-lg', {
+export const button = cva('flex text-center items-center justify-center backdrop-blur-md shadow-lg py-4', {
   variants: {
     rounded: {
       sm: 'rounded',

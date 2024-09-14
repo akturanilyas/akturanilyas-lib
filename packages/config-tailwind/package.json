@@ -1,12 +1,12 @@
 {
   "name": "@akturanilyas/tailwind-config",
   "version": "0.0.6",
-  "private": false,
+  "private": true,
   "exports": {
     ".": "./tailwind.config.ts"
   },
   "devDependencies": {
     "@akturanilyas/typescript-config": "*",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.10"
   }
 }

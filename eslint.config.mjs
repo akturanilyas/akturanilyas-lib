@@ -36,10 +36,6 @@ export default [...fixupConfigRules(compat.extends( "plugin:react/recommended"))
     parser: tsParser,
     ecmaVersion: "latest",
     sourceType: "module",
-
-    parserOptions: {
-      tsconfigRootDir: "/Users/ilyas.akturan/WebstormProjects/akturanilyas.dev",
-    },
   },
 
   rules: {},
