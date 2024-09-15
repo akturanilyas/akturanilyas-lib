@@ -15,3 +15,8 @@ export const Default: Story = {
   render: () => <Card title={{ text: 'Title' }} description={{ text: 'text' }}>Card</Card>,
   name: 'Card',
 };
+
+export const Glass: Story = {
+  render: () => <Card variant={'glass'} title={{ text: 'Glass' }} description={{ text: 'text' }}>Card</Card>,
+  name: 'Card',
+};
