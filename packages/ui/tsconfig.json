@@ -1,5 +1,8 @@
 {
   "extends": "@akturanilyas/typescript-config/react-library.json",
   "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "exclude": ["dist", "build", "node_modules"],
+  "paths": {
+    "@akturanilyas/ui": ["node_modules/@akturanilyas/ui/dist"]
+  }
 }

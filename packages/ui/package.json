@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tailwindcss -i ./src/styles.css -o ./dist/index.css",
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/index.css && tsup src/index.ts --format esm,cjs --dts --external react",
     "lint": "eslint src/",
     "dev": "tailwindcss -i ./src/styles.css -o ./dist/index.css --watch=always",
     "type-check": "tsc --noEmit"
