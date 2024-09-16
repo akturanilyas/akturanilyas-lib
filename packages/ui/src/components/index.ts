@@ -9,3 +9,7 @@ export type { AccordionProps } from './accordion/Accordion.type';
 
 export { default as Card } from './card/Card';
 export type { CardProps } from './card/Card.type';
+
+export { default as Timeline } from './timeline/Timeline';
+export { default as TimelineItem } from './timeline/TimelineItem';
+export type { TimelineProps, TimelineItemType } from './timeline/Timeline.type';

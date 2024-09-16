@@ -3,7 +3,7 @@ import { cva } from 'class-variance-authority';
 export const card = cva(
   `
   flex rounded-lg border border-slate-200 text-slate-950
-  shadow-sm p-4
+  shadow-sm p-4 bg-white
   `,
   {
     variants: {
