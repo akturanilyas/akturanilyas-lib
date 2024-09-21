@@ -4,6 +4,7 @@ import { FC } from 'react';
 import { cn } from '../../utils';
 import TimelineItem from './TimelineItem';
 import { TimelineItemProps } from './TimelineItem.type';
+import { HorizontalLine } from './HorizontalLine';
 
 export const Timeline: FC<TimelineProps> & {
   TimelineItem: FC<TimelineItemProps>;
@@ -38,7 +39,3 @@ export const Timeline: FC<TimelineProps> & {
 Timeline.TimelineItem = TimelineItem;
 
 export default Timeline;
-
-export const HorizontalLine = ({ className }: { className: string }) => (
-  <Div className={`absolute left-[22px] h-[calc(100%+16px)] w-1 bg-green-400 ${className}`} />
-);
