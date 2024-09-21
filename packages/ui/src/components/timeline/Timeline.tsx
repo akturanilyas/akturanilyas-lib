@@ -28,7 +28,7 @@ export const Timeline: FC<TimelineProps> & {
             </Div>
             {item.children}
           </Div>
-          <HorizontalLine className={item.color} />
+          <HorizontalLine className={cn(item.color, { 'h-full': index + 1 === items.length })} />
         </Div>
       ))}
     </Card>

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from '@akturanilyas/ui';
 import { FaBeer } from 'react-icons/fa';

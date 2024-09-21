@@ -13,3 +13,6 @@ export type { CardProps } from './card/Card.type';
 export { default as Timeline } from './timeline/Timeline';
 export { default as TimelineItem } from './timeline/TimelineItem';
 export type { TimelineProps, TimelineItemType } from './timeline/Timeline.type';
+
+export { default as Text } from './text/Text';
+export type { TextProps } from './text/Text.type';

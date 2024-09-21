@@ -1,5 +1,3 @@
-import React from 'react';
-
 import type { Meta, StoryObj } from '@storybook/react';
 import { Timeline, TimelineItem } from '@akturanilyas/ui';
 
