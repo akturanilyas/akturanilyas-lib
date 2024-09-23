@@ -15,7 +15,7 @@ export const button = cva('flex text-center items-center justify-center backdrop
     },
     variant: {
       outlined: ['bg-transparent', 'text-primary', 'border-2 border-primary', 'hover:bg-slate-200'],
-      text: ['bg-transparent', 'text-primary', 'border-transparent'],
+      text: ['bg-transparent', 'text-primary', 'border-transparent', ' bg-none shadow-none'],
       icon: ['gap-2'],
       glass: ['bg-white/30', 'hover:bg-white/40 text-white'],
     },

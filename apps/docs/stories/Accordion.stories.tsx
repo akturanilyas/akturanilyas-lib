@@ -14,25 +14,14 @@ export const Default: Story = {
   name: 'Accordion',
   args: {
     title: {
-      text: 'Title',
+      text: 'Accordion Title',
     },
-    children: 'Content',
-  },
-};
-
-export const Glass: Story = {
-  render: ({ title, children }) => (
-    <div className='rounded-md bg-red-800 p-4 shadow-md'>
-      <Accordion variant={'glass'} title={title} defaultValue={true}>
-        {children}
-      </Accordion>
-    </div>
-  ),
-  name: 'Glass',
-  args: {
-    title: {
-      text: 'Title',
-    },
-    children: 'Content',
+    children: (
+      <span>
+        This is the content of the Accordion component. It can contain multiple lines of text, providing detailed
+        information or instructions. The content can be as long as needed to convey the necessary information to the
+        user.
+      </span>
+    ),
   },
 };

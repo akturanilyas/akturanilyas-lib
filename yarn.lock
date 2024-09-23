@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@akturanilyas/ui@*":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@akturanilyas/ui/-/ui-0.0.17.tgz#6881aa0973f072563dba7d4d88cb806f3b076304"
-  integrity sha512-8AHoRR73GI8B/qiGLCwYwJzdiQAbc7XtJzonufWSWhwyzX20YpFTHPS+lElo0326/6NsnD1CQPmFNd+LcuPZGg==
-
 "@alloc/quick-lru@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
@@ -6580,6 +6575,7 @@ storybook@^8.3.2:
     "@storybook/core" "8.3.2"
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
