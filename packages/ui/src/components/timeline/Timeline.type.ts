@@ -12,6 +12,7 @@ export type TimelineItemType = {
     alt?: string;
     title?: string;
     className?: string;
+    sizes?: string;
   };
   color: string;
   children: ReactNode;

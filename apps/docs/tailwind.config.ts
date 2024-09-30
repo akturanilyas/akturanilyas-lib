@@ -12,7 +12,21 @@ const config = {
         '2xl': '1400px',
       },
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        'gradient-animation': {
+          '0%, 100%': {
+            'background-position': '0% 50%',
+          },
+          '50%': {
+            'background-position': '100% 50%',
+          },
+        },
+      },
+      animation: {
+        'gradient-animation': 'gradient-animation 5s ease infinite',
+      },
+    },
   },
   plugins: [require('tailwindcss-animate')],
 } satisfies Config;

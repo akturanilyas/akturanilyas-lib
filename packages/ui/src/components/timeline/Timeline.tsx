@@ -22,9 +22,9 @@ export const Timeline: FC<TimelineProps> & {
                 src={item.img.src}
                 width={48}
                 height={48}
-                alt={'item.company'}
-                title={'experience.company'}
-                sizes={'48px'}
+                alt={item.img.alt}
+                title={item.img.title}
+                sizes={item.img.sizes || '48px'}
               />
             </Div>
             {item.children}

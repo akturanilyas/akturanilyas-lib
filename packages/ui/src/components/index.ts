@@ -16,3 +16,6 @@ export type { TimelineProps, TimelineItemType } from './timeline/Timeline.type';
 
 export { default as Text } from './text/Text';
 export type { TextProps } from './text/Text.type';
+
+export { default as Header } from './header/Header';
+export type { HeaderProps } from './header/Header.type';

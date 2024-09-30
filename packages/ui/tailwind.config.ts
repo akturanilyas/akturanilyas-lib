@@ -5,6 +5,10 @@ const config: Pick<Config, 'prefix' | 'presets' | 'content' | 'theme'> = {
   content: ['./src/**/*.tsx', './src/**/*.style.ts'],
   theme: {
     extend: {
+      fontSize: {
+        '2xs': ['0.625rem', '0.75rem'],
+        '3xs': ['0.5rem', '0.5rem'],
+      },
       colors: {
         primary: {
           DEFAULT: '#4662EB',
