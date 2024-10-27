@@ -6,4 +6,4 @@ export type HeaderProps = {
   items: Array<HeaderItem>;
   suffixItems?: Array<HeaderItem>;
   className?: string;
-} & VariantProps<typeof header>;
+} & Omit<VariantProps<typeof header>, 'type'>;

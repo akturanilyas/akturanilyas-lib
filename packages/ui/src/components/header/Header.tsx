@@ -9,18 +9,22 @@ export const Header: FC<HeaderProps> = (props) => {
   const { items, suffixItems, className } = props;
 
   return (
-    <header className={cn(header({ className }))}>
-      <Div className={'flex-row gap-4'}>
-        {items.map((item) => <HeaderItem key={item.key} item={item} />)}
-      </Div>
-
-      {suffixItems && (
-        <Div className={'flex-row-reverse gap-4'}>
-          {suffixItems.map((item) => (
+    <header className={cn(header({ className, type: 'glass' }))}>
+      <>
+        <Div className={'flex-row gap-4'}>
+          {items.map((item) => (
             <HeaderItem key={item.key} item={item} />
           ))}
         </Div>
-      )}
+
+        {suffixItems && (
+          <Div className={'flex-row-reverse gap-4'}>
+            {suffixItems.map((item) => (
+              <HeaderItem key={item.key} item={item} />
+            ))}
+          </Div>
+        )}
+      </>
     </header>
   );
 };

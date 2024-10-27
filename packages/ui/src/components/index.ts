@@ -19,3 +19,6 @@ export type { TextProps } from './text/Text.type';
 
 export { default as Header } from './header/Header';
 export type { HeaderProps } from './header/Header.type';
+
+export { default as Anchor } from './anchor/Anchor';
+export type { AnchorProps } from './anchor/Anchor.type';

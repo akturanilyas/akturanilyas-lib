@@ -1,21 +1,20 @@
 import { ReactNode } from 'react';
 import type { VariantProps } from 'class-variance-authority';
 import { headerItem } from './HeaderItem.style';
-import { ButtonProps } from '../button/Button.type';
+import { AnchorProps } from '../anchor/Anchor.type';
 
 export type HeaderItemProps = {
   item: HeaderItem;
-  className?: string;
 } & VariantProps<typeof headerItem>;
 
 export type HeaderItemBase = {
   key: string;
   className?: string;
+  textClassName?: string;
   title: string;
   disabled?: boolean;
   wip?: boolean;
-  onClick?: (key: string) => void;
-} & ButtonProps;
+} & AnchorProps;
 
 export type HeaderItemWithComponent = {
   component: ReactNode;
